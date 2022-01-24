@@ -1,0 +1,17 @@
+.fashion{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.fashion_image{
+    width: 100%;
+    height:100%;
+    object-fit: cover; /*keep same aspect ratio of image and wont change*/
+    position: absolute;
+}
+
+.fashion_title{
+    position: absolute;
+    bottom: 50%; 
+    right: 40%;
+}
